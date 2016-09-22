@@ -8,3 +8,9 @@ deploy:
   app: glacial-plains-84323
   on:
     repo: kurasawanko/rails_enpit
+addons:
+  postgresql: "9.3"
+before_script:
+  - psql -c 'create database travis_ci_test;' -U postgres
+  - cp config/database.yml.travis config/database.yml
+  - rake db:migrate RAILS_ENV=test
