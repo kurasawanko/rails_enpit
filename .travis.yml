@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+- 2.2.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: a3FYm5NcR1gxFm20gRlnuB4K9kbUEzD64Z/UpnQOO8qjSV7Yxpyy4HwCoM6/shVWwf191H6NVKAe6t6JIp2SOx+i5+armnHbEe+h5/Ff7Jhq6Fsy8AjmVVLmxhF2WEeKhhui3ESV7IU8q0MUMdIuvIv3+IycbKWpHs1aJ06xOvgcbAuta8sdJn7uo3Eiw9bSzQgzuJoNeL+eYRCIHy2pWHb2Gt3Iq1QEOdfWEpn1Us3JFryvzJrYA55tN42Bc+dh/F3CgjdHVMtrLcCpsZgYVvK/ZsnJPoBIrhsIuspvZNmoMggPM2ZsdZ4KmPWKsu4zccBtifnNwMjxoMX5Mz2ObU8NB7BVdErCy4kCzmA+Q/dxlfAlTUKU0s0WxYkzMFSQXldiyIw1EVj9BDRv3fuchH7AzlQ3uki8AD0CfF5SPL+mZnHlVwHEefKlwxrVxVmOtUKPO9p8DdatRng9D7YyCT7I7t9a942Ru8a7lvtlXPyqJ0CMxQLpuyWX9yaP4+01k0MtE01l5gA/JQbKwhDEyywa+LOvnSnoCwclGhoyBIiKdhJ2XaP8ybyttwtQf89buLguJ96XX6ZlzzMtNxqbp/3SmprmUMBd6mhGcUOQa0m3sMTWks0KKscEPIm1NiMhUTOnWRakWtKnCMiA2yLOamBotYKXxw9uFgcmSfqFguY=
+  app: glacial-plains-84323
+  on:
+    repo: kurasawanko/rails_enpit
